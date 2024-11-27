@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#waraper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+body {
+  /* background-color: #ffcc99; */
+}
+h3 {
+  background-color: rgb(248, 193, 12);
+  font-size: 19px;
+  color: #222222;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  /* border: 2px solid red; */
+  display: inline-block;
+  border-radius: 4px;
+}
+ul.products {
+  display: flex;
+  list-style: none;
+  /* box-sizing: border-box; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products li:nth-child(-n + 5) {
+  width: calc(20% - 40px);
+  margin: 20px;
+}
+
+/* Định dạng cho hàng dưới (5 sản phẩm) */
+.products li:nth-child(n + 6):nth-child(-n + 10) {
+  width: calc(20% - 40px);
+  margin: 20px;
+}
+.products li:nth-child(n + 11) {
+  width: calc(20% - 40px);
+  margin: 20px;
+}
+.headline {
+  text-align: center;
+  margin: 10px auto;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-anh4 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.products li .product-top {
+  position: relative;
+  overflow: hidden;
+}
+.products li :hover .product-top .product-thum img {
+  filter: opacity(70%);
+}
+.products li .product-top a.buy-now {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #0066cc;
+  color: #cccccc;
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: -36px;
+  transition: 0, 55;
+  opacity: 0, 85;
+}
+.products li :hover a.buy-now {
+  bottom: 0px;
+}
+.products li .product-top a.add-to-cart {
+  /* text-decoration: none;
+        color: beige;
+        font-size: 13px;
+        background-color: #ff6600;
+        text-transform: capitalize;
+        display: block;
+        padding: 0px 23px; */
+}
+.products li .product-inform {
+  padding: 13px 0px;
+}
+.products li .product-inform a {
+  display: block;
+  text-decoration: none;
+}
+.products li .product-inform a.product-cat {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: gray;
+  padding: 3px 10px;
+}
+.products li .product-inform a.product-name {
+  color: #1b2019;
+  font-weight: 600;
+}
+.products li .product-inform .product-price {
+  color: #ff0000;
+  font-family: "Dancing Script", cursive;
+  padding: 1px 40px;
+}
