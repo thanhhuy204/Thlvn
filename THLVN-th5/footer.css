@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #e4e0e0;
+  padding: 20px;
+}
+
+footer .container {
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container h2 {
+  color: #3a3434;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+
+.container h2 span {
+  color: #22aece;
+}
+footer .section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .section p,
+footer .section ul,
+footer .section form {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+footer .section {
+  flex: 1 1 auto ;
+  margin: 10px;
+}
+
+footer .section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .payment-methods img {
+  width: 50px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+

@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.product-details {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: bisque;
+}
+.details-img {
+  text-align: center;
+}
+.details-img img {
+  max-width: 100%;
+  height: auto;
+}
+.price {
+  margin-top: 10px;
+}
+.hotline {
+  margin-top: 20px;
+}
+.table-size {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #FF0000;
+}
+.buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color:white
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.buy-button:hover {
+  background-color: orange;
+}
+td{
+    background-color:#FFCC00;
+}
+#gia{
+    font-family: "Dancing Script", cursive;
+    color:#FF0000
+}
+.hotline p{
+    background-color: #FF0000;
+    padding: auto;
+    width: 150px;
+    margin-left: 230px;
+}
+.icon-medium{
+  font-size: 30px;
+  display:inline-block;
+ 
+}
+.icon-spacsin{
+margin-right: 20px;
+}
+.icon-tiktok{
+  color: black;
+}
+.icon-facebook{
+  color: rgb(18, 128, 231);
+}

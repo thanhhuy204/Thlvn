@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold; /* Làm chữ in đậm */
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: solid 1px;
+}
+
+.menu-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-up .img {
+  flex: 1;
+}
+
+.menu-up .img img {
+  height: 60px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.up {
+  margin-right: 20px;
+}
+
+.search {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search .btn-search {
+  padding: 8px 12px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.search .btn-search:hover {
+  background-color: rgb(249, 2, 2);
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-right .up ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.up {
+  margin-right: 10px;
+}
+.login-right .up ul li {
+  margin: 0 15px;
+}
+
+.login-right .up ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.login-right .up ul li a:hover {
+  color: rgb(249, 2, 2);
+}
+
+/* Thanh menu dưới */
+.menu-down {
+  width: 100%;
+  background-color: #3c9ad4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-down ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.menu-down ul li {
+  margin: 0 40px;
+}
+
+.menu-down ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+.menu-down ul li a:hover {
+  color: red;
+  border-radius: 4px;
+}
+
+.menu-down ul li i {
+  margin-right: 5px;
+}

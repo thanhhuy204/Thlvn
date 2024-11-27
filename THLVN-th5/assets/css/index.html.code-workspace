@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "../../../Project-Game-Tetris"
+		},
+		{
+			"path": "C:/Users/Administrator/Project-Game"
+		},
+		{
+			"path": "../.."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Work"
+    }
+}
